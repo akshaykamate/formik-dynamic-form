@@ -1,6 +1,6 @@
 {
   "name": "formik-dynamic-form",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Formik dynamic form builder ",
   "private": false,
   "type": "module",
@@ -52,5 +52,9 @@
     "typescript": "^4.8.4"
   },
   "author": "akshay kamate",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshaykamate/formik-dynamic-form.git"
+  }
 }
