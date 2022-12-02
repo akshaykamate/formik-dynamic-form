@@ -7,12 +7,10 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "clean": "rm -rf dist",
     "rollup-watch": "rollup -c -w",
-    "build": "npm run clean && rollup -c rollup.config.mjs"
+    "build": "npm run clean && rollup -c",
+    "test": "jest"
   },
   "keywords": [
     "formik",
