@@ -3,7 +3,7 @@ import React from 'react';
 import {InputPropTypes} from './InputPropTypes';
 
 const InputDefault = (props: InputPropTypes) => {
-  const { label, name, ...rest } = props
+  const {label, name, ...rest} = props.options
   return (
     <article>
       <label htmlFor={name}>{label}</label>
